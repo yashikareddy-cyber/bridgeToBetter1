@@ -41,8 +41,8 @@ p.lead{color:var(--muted);margin-top:12px;font-size:16px}
 .board-card{display:flex;gap:12px;align-items:flex-start;padding:12px;border-radius:12px;background:#fff}
 footer{margin-top:30px;padding:18px;color:var(--muted);font-size:14px;text-align:center}
 .avatar img {
-  width: 100px;        /* desired width */
-  height: 100px;       /* desired height */
+  width: 85px;        /* desired width */
+  height: 85px;       /* desired height */
   border-radius: 50%;  /* makes it circular */
   object-fit: cover;   /* crops the image nicely */
   display: block;
