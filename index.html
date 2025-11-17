@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Better to Bridge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="brand" href="#home"><div class="logo">BtB</div>Better to Bridge</a>
+      <nav>
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#mission">Mission</a>
+        <a class="nav-link" href="#board">Meet Our Board</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="cta" href="#volunteer">Volunteer</a>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <h1>Bridging neighbors, resources, and opportunity.</h1>
+      <p class="lead">Better to Bridge connects volunteers, donors, and local organizations to provide meaningful, sustainable support for families and youth in our community.</p>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Better to Bridge</h2>
+      <p>Better to Bridge is a volunteer-powered nonprofit focused on strengthening community connections.</p>
+    </section>
+
+    <section id="mission" class="section">
+      <h2>Our Mission</h2>
+      <p>To create sustainable bridges of support by connecting underserved individuals and families with essential resources, community partners, and opportunities for growth.</p>
+    </section>
+
+    <section id="board" class="section">
+      <h2>Meet Our Board</h2>
+      <div class="board-grid">
+        <div class="board-card"><div class="avatar">AA</div><div><strong>Alex A.</strong> Founder & Executive Director</div></div>
+        <div class="board-card"><div class="avatar">ML</div><div><strong>Maria L.</strong> Operations Director</div></div>
+        <div class="board-card"><div class="avatar">TC</div><div><strong>Tariq C.</strong> Tech & Communications</div></div>
+        <div class="board-card"><div class="avatar">JR</div><div><strong>Jasmine R.</strong> Community Engagement</div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact & Support</h2>
+      <p>Email: hello@bettertobridge.org</p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Better to Bridge
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
